@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  background-color: #ffe500;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color:#b20953;
+  font-family: 'Sigmar One', sans-serif;
+
+}
+
+.nav {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  color:#fff;
+}
+
+.nav li {
+  font-size: 1.875rem;
+  display: inline-block;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff
+  padding: .2em .5em .3em
+}
+
+li a:hover {
+  background-color: #b20953;
+}
+
+li a {
+  color: #fff;
+  background-color: #b2a212;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: .2em .5em .3em
+
+}
+
+main {
+  background-color: #fff;
+  padding: 0em .75em;
+  display: inline-block;
+
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+figcaption {
+  font-family: goergia, serif;
+  font-size: 1.125rem;
+}
+footer {
+  text-align: center;
+}
